@@ -14,7 +14,7 @@ touch ~/Documents/$name/$name
 # To go to The Folder 
 cd ~/Documents/$name
 # To open The Text Editor (vim,code,nano......)
-vim $name
+# vim $name
 # code $name
 # nano $name
 # gedit $name
