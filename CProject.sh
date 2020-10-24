@@ -18,6 +18,7 @@ cd ~/Documents/$name
 # code $name
 # nano $name
 # gedit $name
+clear
 exec bash
 
 
