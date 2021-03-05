@@ -5,18 +5,18 @@
 from os import system, chdir
 from sys import argv
 
-# =-=-=-=-=-=-=-=-=
+# =-=-=-=-=-=-=-=-= /code/python/CProject/ is My File Locaton For 
 
-Pythonlocaton_txt = open('Data/PythonLocaton.txt')
+Pythonlocaton_txt = open('/code/python/CProject/Data/PythonLocaton.txt')
 PythonFileLocaton = Pythonlocaton_txt.read()
 
-JavaFilelocaton_txt = open('Data/JavaLocaton.txt')
+JavaFilelocaton_txt = open('/code/python/CProject/Data/JavaLocaton.txt')
 JavaFilelocaton = JavaFilelocaton_txt.read()
 
-ShellFilelocaton_txt = open('Data/ShellLocaton.txt')
+ShellFilelocaton_txt = open('/code/python/CProject/Data/ShellLocaton.txt')
 ShellFileLocaton = ShellFilelocaton_txt.read()
 
-CFileLocaton_txt = open('Data/CLocaton.txt')
+CFileLocaton_txt = open('/code/python/CProject/Data/CLocaton.txt')
 CFileLocaton = CFileLocaton_txt.read()
 
 # =-=-=-=-=-=-=-=
