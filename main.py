@@ -16,7 +16,7 @@ JavaFilelcaton = JavaFilelocaton_txt.read()
 ShellFilelocaton_txt = open('Data/ShellLocaton.txt')
 ShellFileLocaton = ShellFilelocaton_txt.read()
 
-CFileLocaton_txt = open('Data/C-Locaton.txt')
+CFileLocaton_txt = open('Data/CLocaton.txt')
 CFileLocaton = CFileLocaton_txt.read()
 
 # =-=-=-=-=-=-=-=
