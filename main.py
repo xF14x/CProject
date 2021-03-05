@@ -29,25 +29,25 @@ Java & C & Shell & Python
 else: pass
 
 def MakeTheaProject(lang, ProjectName):
-    if lang == "python" and ProjectName == str:
+    if lang == "python":
 
         print("Creating the project...")
         system(f'mkdir {PythonFileLocaton}{ProjectName} && git init {PythonFileLocaton}{ProjectName}')
         print("")
         print(f'Project Locaton is {PythonFileLocaton}{ProjectName}')
-    elif lang == "java" and ProjectName == str:
+    elif lang == "java":
 
         print("Creating the project...")
         system(f'mkdir {PythonFileLocaton}{ProjectName} && git init {PythonFileLocaton}{ProjectName}')
         print("")
         print(f'Project Locaton is {PythonFileLocaton}{ProjectName}')
-    elif lang == "shell" and ProjectName == str:
+    elif lang == "shell":
 
         print("Creating the project...")
         system(f'mkdir {PythonFileLocaton}{ProjectName} && git init {PythonFileLocaton}{ProjectName}')
         print("")
         print(f'Project Locaton is {PythonFileLocaton}{ProjectName}')
-    elif lang == "C" and ProjectName == str :
+    elif lang == "C":
 
         print("Creating the project...")
         system(f'mkdir {PythonFileLocaton}{ProjectName} && git init {PythonFileLocaton}{ProjectName}')
