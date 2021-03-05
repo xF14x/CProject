@@ -11,7 +11,7 @@ Pythonlocaton_txt = open('Data/PythonLocaton.txt')
 PythonFileLocaton = Pythonlocaton_txt.read()
 
 JavaFilelocaton_txt = open('Data/JavaLocaton.txt')
-JavaFilelcaton = JavaFilelocaton_txt.read()
+JavaFilelocaton = JavaFilelocaton_txt.read()
 
 ShellFilelocaton_txt = open('Data/ShellLocaton.txt')
 ShellFileLocaton = ShellFilelocaton_txt.read()
@@ -38,21 +38,21 @@ def MakeTheaProject(lang, ProjectName):
     elif lang == "java":
 
         print("Creating the project...")
-        system(f'mkdir {PythonFileLocaton}{ProjectName} && git init {PythonFileLocaton}{ProjectName}')
+        system(f'mkdir {JavaFilelocaton}{ProjectName} && git init {JavaFilelocaton}{ProjectName}')
         print("")
-        print(f'Project Locaton is {PythonFileLocaton}{ProjectName}')
+        print(f'Project Locaton is {JavaFilelocaton}{ProjectName}')
     elif lang == "shell":
 
         print("Creating the project...")
-        system(f'mkdir {PythonFileLocaton}{ProjectName} && git init {PythonFileLocaton}{ProjectName}')
+        system(f'mkdir {ShellFileLocaton}{ProjectName} && git init {ShellFileLocaton}{ProjectName}')
         print("")
-        print(f'Project Locaton is {PythonFileLocaton}{ProjectName}')
+        print(f'Project Locaton is {ShellFileLocaton}{ProjectName}')
     elif lang == "C":
 
         print("Creating the project...")
-        system(f'mkdir {PythonFileLocaton}{ProjectName} && git init {PythonFileLocaton}{ProjectName}')
+        system(f'mkdir {CFileLocaton}{ProjectName} && git init {CFileLocaton}{ProjectName}')
         print("")
-        print(f'Project Locaton is {PythonFileLocaton}{ProjectName}')
+        print(f'Project Locaton is {CFileLocaton}{ProjectName}')
     else:
         print("Error")
         
